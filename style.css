@@ -29,6 +29,29 @@ body{
     
     
 }
+.title h1{
+    font-family:monospace;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    font-size: 45px;
+
+}
+#tableid{
+    display: none;
+}
+.labelsort{
+    height: 40px;
+    overflow-x: visible;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid;
+    border-radius: 1px;
+    flex-direction: row;
+}
 .inputbar
 {
     margin-top: 10vh;
